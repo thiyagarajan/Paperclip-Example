@@ -1,0 +1,8 @@
+<h1><%= @user.name %>'s Details</h1>
+<table>
+  <tr><td>User Name:</td><td><%= @user.name %></td></tr>
+  <tr><td>City:</td><td><%= @user.city %></td></tr>
+  <tr><td>Country:</td><td><%= @user.country %></td></tr>
+  <%= image_tag @user.avatar.url(:thumb) %><br />
+  <%= image_tag @user.avatar.url(:medium) %><br />
+</table>

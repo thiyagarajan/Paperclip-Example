@@ -1,0 +1,18 @@
+<h1>New User</h1>
+<table>
+  <% form_for @user, :html => { :multipart => true } do |form| %>
+    <tr>
+      <td>User Name:</td><td><%= form.text_field :name %></td>
+    </tr>
+    <tr>
+      <td>City:</td><td><%= form.text_field :city %></td>
+    </tr>
+    <tr>
+      <td>Country:</td><td><%= form.text_field :country %></td>
+    </tr>
+    <tr>
+      <td>Avatar:</td><td><%= form.file_field :avatar %></td>
+    </tr>
+    <tr><td></td><td><%= form.submit 'save' %></td></tr>
+  <% end %>
+</table>

@@ -1,0 +1,2521 @@
+/!\ FAILSAFE /!\  Sun Apr 10 21:00:14 +0530 2011
+  Status: 500 Internal Server Error
+  Access denied for user 'root'@'localhost' (using password: YES)
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.11/lib/active_record/connection_adapters/mysql_adapter.rb:620:in `real_connect'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.11/lib/active_record/connection_adapters/mysql_adapter.rb:620:in `connect'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.11/lib/active_record/connection_adapters/mysql_adapter.rb:203:in `initialize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.11/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `new'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.11/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `mysql_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.11/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.11/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.11/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.11/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.11/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.11/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    C:/Ruby/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.11/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.11/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.11/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.11/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.11/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.11/lib/active_record/query_cache.rb:9:in `cache'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.11/lib/active_record/query_cache.rb:28:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.11/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/string_coercion.rb:25:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/params_parser.rb:15:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/session/cookie_store.rb:99:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/failsafe.rb:26:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `synchronize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:114:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/reloader.rb:34:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:108:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/static.rb:31:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/log_tailer.rb:17:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/chunked.rb:15:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:67:in `process'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:159:in `process_client'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:158:in `each'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:158:in `process_client'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:285:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:285:in `initialize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:285:in `new'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:285:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:268:in `initialize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:268:in `new'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:268:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/commands/server.rb:111
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:29:in `gem_original_require'
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:29:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Sun Apr 10 21:00:14 +0530 2011
+  Status: 500 Internal Server Error
+  Access denied for user 'root'@'localhost' (using password: YES)
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.11/lib/active_record/connection_adapters/mysql_adapter.rb:620:in `real_connect'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.11/lib/active_record/connection_adapters/mysql_adapter.rb:620:in `connect'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.11/lib/active_record/connection_adapters/mysql_adapter.rb:203:in `initialize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.11/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `new'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.11/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `mysql_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.11/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.11/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.11/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.11/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.11/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.11/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    C:/Ruby/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.11/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.11/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.11/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.11/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.11/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.11/lib/active_record/query_cache.rb:9:in `cache'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.11/lib/active_record/query_cache.rb:28:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.11/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/string_coercion.rb:25:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/params_parser.rb:15:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/session/cookie_store.rb:99:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/failsafe.rb:26:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `synchronize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:114:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/reloader.rb:34:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:108:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/static.rb:31:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/log_tailer.rb:17:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/chunked.rb:15:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:67:in `process'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:159:in `process_client'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:158:in `each'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:158:in `process_client'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:285:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:285:in `initialize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:285:in `new'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:285:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:268:in `initialize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:268:in `new'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:268:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/commands/server.rb:111
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:29:in `gem_original_require'
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:29:in `require'
+    script/server:3
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (4343.8ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (9390.6ms)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (3890.6ms)[0m   [0;1mSHOW KEYS FROM `schema_migrations`[0m
+  [4;35;1mSQL (11718.8ms)[0m   [0mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;36;1mSQL (46.9ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20110410153254)
+  [4;36;1mSQL (1203.1ms)[0m   [0;1mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `city` varchar(255), `country` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (875.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20110410153254')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (734.4ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (46.9ms)[0m   [0;1mdescribe `users`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-04-10 21:28:26) [GET]
+Rendering user/index
+Completed in 313ms (View: 313, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#new (for 127.0.0.1 at 2011-04-10 21:28:58) [GET]
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering user/new
+
+ActionView::TemplateError (undefined method `users_path' for #<ActionView::Base:0x45faa28>) on line #1 of app/views/user/new.html.erb:
+1: <% form_for @user do |user| %>
+2: <%= user.text_field :name %>
+3: <%= user.text_field :city %>
+4: <%= user.text_field :country %>
+
+    app/views/user/new.html.erb:1
+
+Rendered rescues/_trace (109.4ms)
+Rendered rescues/_request_and_response (171.9ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#new (for 127.0.0.1 at 2011-04-10 21:29:45) [GET]
+  [4;36;1mUser Columns (93.8ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering user/new
+
+ActionView::TemplateError (undefined method `submit_tag' for #<ActionView::Helpers::FormBuilder:0x45fad40>) on line #5 of app/views/user/new.html.erb:
+2: <%= user.text_field :name %>
+3: <%= user.text_field :city %>
+4: <%= user.text_field :country %>
+5: <%= user.submit_tag 'save' %>
+6: <% end %>
+
+    app/views/user/new.html.erb:5
+    app/views/user/new.html.erb:1
+
+Rendered rescues/_trace (109.4ms)
+Rendered rescues/_request_and_response (15.6ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#new (for 127.0.0.1 at 2011-04-10 21:30:11) [GET]
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering user/new
+Completed in 344ms (View: 328, DB: 0) | 200 OK [http://localhost/user/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#create (for 127.0.0.1 at 2011-04-10 21:30:34) [POST]
+  Parameters: {"commit"=>"save", "authenticity_token"=>"T78wnvKdCyXWqRvq74iJwLCJkK70DUhh22VixmrPasg=", "user"=>{"city"=>"hyd", "name"=>"vtr", "country"=>"in"}}
+
+NameError (uninitialized constant UsersController):
+  
+
+Rendered rescues/_trace (93.8ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#create (for 127.0.0.1 at 2011-04-10 21:57:30) [POST]
+  Parameters: {"commit"=>"save", "authenticity_token"=>"T78wnvKdCyXWqRvq74iJwLCJkK70DUhh22VixmrPasg=", "user"=>{"city"=>"hyd", "name"=>"vtr", "country"=>"in"}}
+
+NameError (uninitialized constant UsersController):
+  
+
+Rendered rescues/_trace (78.1ms)
+Rendered rescues/_request_and_response (78.1ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#create (for 127.0.0.1 at 2011-04-10 21:58:35) [POST]
+  Parameters: {"commit"=>"save", "authenticity_token"=>"T78wnvKdCyXWqRvq74iJwLCJkK70DUhh22VixmrPasg=", "user"=>{"city"=>"hyd", "name"=>"vtr", "country"=>"in"}}
+
+NameError (uninitialized constant UsersController):
+  
+
+Rendered rescues/_trace (78.1ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#new (for 127.0.0.1 at 2011-04-10 21:59:06) [GET]
+  [4;36;1mUser Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering user/new
+Completed in 359ms (View: 344, DB: 16) | 200 OK [http://localhost/user/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#create (for 127.0.0.1 at 2011-04-10 21:59:24) [POST]
+  Parameters: {"commit"=>"save", "authenticity_token"=>"T78wnvKdCyXWqRvq74iJwLCJkK70DUhh22VixmrPasg=", "user"=>{"city"=>"hyd", "name"=>"vtr", "country"=>"in"}}
+
+NameError (uninitialized constant UsersController):
+  
+
+Rendered rescues/_trace (328.1ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#create (for 127.0.0.1 at 2011-04-10 22:00:47) [POST]
+  Parameters: {"commit"=>"save", "authenticity_token"=>"T78wnvKdCyXWqRvq74iJwLCJkK70DUhh22VixmrPasg=", "user"=>{"city"=>"hyd", "name"=>"vtr", "country"=>"in"}}
+
+NameError (uninitialized constant UsersController):
+  
+
+Rendered rescues/_trace (62.5ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#create (for 127.0.0.1 at 2011-04-10 22:02:27) [POST]
+  Parameters: {"commit"=>"save", "authenticity_token"=>"T78wnvKdCyXWqRvq74iJwLCJkK70DUhh22VixmrPasg=", "user"=>{"city"=>"hyd", "name"=>"vtr", "country"=>"in"}}
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (31.3ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Create (31.3ms)[0m   [0;1mINSERT INTO `users` (`name`, `city`, `created_at`, `country`, `updated_at`) VALUES('vtr', 'hyd', '2011-04-10 16:32:27', 'in', '2011-04-10 16:32:27')[0m
+  [4;35;1mSQL (156.3ms)[0m   [0mCOMMIT[0m
+
+ActionController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  app/controllers/user_controller.rb:13:in `create'
+
+Rendered rescues/_trace (62.5ms)
+Rendered rescues/_request_and_response (15.6ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#create (for 127.0.0.1 at 2011-04-10 22:03:06) [POST]
+  Parameters: {"commit"=>"save", "authenticity_token"=>"T78wnvKdCyXWqRvq74iJwLCJkK70DUhh22VixmrPasg=", "user"=>{"city"=>"hyd", "name"=>"vtr", "country"=>"in"}}
+  [4;36;1mUser Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO `users` (`name`, `city`, `created_at`, `country`, `updated_at`) VALUES('vtr', 'hyd', '2011-04-10 16:33:06', 'in', '2011-04-10 16:33:06')[0m
+  [4;35;1mSQL (281.3ms)[0m   [0mCOMMIT[0m
+
+ActionController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  app/controllers/user_controller.rb:13:in `create'
+
+Rendered rescues/_trace (218.8ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#create (for 127.0.0.1 at 2011-04-10 22:04:00) [POST]
+  Parameters: {"commit"=>"save", "authenticity_token"=>"T78wnvKdCyXWqRvq74iJwLCJkK70DUhh22VixmrPasg=", "user"=>{"city"=>"hyd", "name"=>"vtr", "country"=>"in"}}
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO `users` (`name`, `city`, `created_at`, `country`, `updated_at`) VALUES('vtr', 'hyd', '2011-04-10 16:34:00', 'in', '2011-04-10 16:34:00')[0m
+  [4;35;1mSQL (406.3ms)[0m   [0mCOMMIT[0m
+
+ActionController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  app/controllers/user_controller.rb:13:in `create'
+
+Rendered rescues/_trace (62.5ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#create (for 127.0.0.1 at 2011-04-10 22:04:42) [POST]
+  Parameters: {"commit"=>"save", "authenticity_token"=>"T78wnvKdCyXWqRvq74iJwLCJkK70DUhh22VixmrPasg=", "user"=>{"city"=>"hyd", "name"=>"vtr", "country"=>"in"}}
+
+SyntaxError (C:/PersonalPrj/vtr/app/controllers/user_controller.rb:25: syntax error, unexpected $end, expecting kEND):
+  
+
+Rendered rescues/_trace (375.0ms)
+Rendered rescues/_request_and_response (15.6ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#create (for 127.0.0.1 at 2011-04-10 22:05:08) [POST]
+  Parameters: {"commit"=>"save", "authenticity_token"=>"T78wnvKdCyXWqRvq74iJwLCJkK70DUhh22VixmrPasg=", "user"=>{"city"=>"hyd", "name"=>"vtr", "country"=>"in"}}
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO `users` (`name`, `city`, `created_at`, `country`, `updated_at`) VALUES('vtr', 'hyd', '2011-04-10 16:35:08', 'in', '2011-04-10 16:35:08')[0m
+  [4;35;1mSQL (125.0ms)[0m   [0mCOMMIT[0m
+Completed in 234ms (View: 0, DB: 125) | 200 OK [http://localhost/users]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#create (for 127.0.0.1 at 2011-04-10 22:05:45) [POST]
+  Parameters: {"commit"=>"save", "authenticity_token"=>"T78wnvKdCyXWqRvq74iJwLCJkK70DUhh22VixmrPasg=", "user"=>{"city"=>"hyd", "name"=>"vtr", "country"=>"in"}}
+  [4;36;1mUser Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO `users` (`name`, `city`, `created_at`, `country`, `updated_at`) VALUES('vtr', 'hyd', '2011-04-10 16:35:45', 'in', '2011-04-10 16:35:45')[0m
+  [4;35;1mSQL (109.4ms)[0m   [0mCOMMIT[0m
+
+ActionView::MissingTemplate (Missing template user/create.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#create (for 127.0.0.1 at 2011-04-10 22:06:26) [POST]
+  Parameters: {"commit"=>"save", "authenticity_token"=>"T78wnvKdCyXWqRvq74iJwLCJkK70DUhh22VixmrPasg=", "user"=>{"city"=>"hyd", "name"=>"vtr", "country"=>"in"}}
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO `users` (`name`, `city`, `created_at`, `country`, `updated_at`) VALUES('vtr', 'hyd', '2011-04-10 16:36:26', 'in', '2011-04-10 16:36:26')[0m
+  [4;35;1mSQL (328.1ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed in 344ms (DB: 328) | 302 Found [http://localhost/users]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-04-10 22:06:27) [GET]
+Rendering user/index
+Completed in 344ms (View: 328, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#create (for 127.0.0.1 at 2011-04-10 22:07:59) [POST]
+  Parameters: {"commit"=>"save", "authenticity_token"=>"T78wnvKdCyXWqRvq74iJwLCJkK70DUhh22VixmrPasg=", "user"=>{"city"=>"hyd", "name"=>"vtr", "country"=>"in"}}
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO `users` (`name`, `city`, `created_at`, `country`, `updated_at`) VALUES('vtr', 'hyd', '2011-04-10 16:38:00', 'in', '2011-04-10 16:38:00')[0m
+  [4;35;1mSQL (171.9ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed in 203ms (DB: 172) | 302 Found [http://localhost/users]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-04-10 22:08:00) [GET]
+Rendering template within layouts/application
+Rendering user/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (562.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (218.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (1375.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (625.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20110410153254)
+Migrating to AddAvatarColumnToUser (20110410165817)
+  [4;36;1mSQL (5062.5ms)[0m   [0;1mALTER TABLE `users` ADD `avatar_file_name` varchar(255)[0m
+  [4;35;1mSQL (437.5ms)[0m   [0mALTER TABLE `users` ADD `avatar_content_type` varchar(255)[0m
+  [4;36;1mSQL (593.8ms)[0m   [0;1mALTER TABLE `users` ADD `avatar_file_size` int(11)[0m
+  [4;35;1mSQL (421.9ms)[0m   [0mALTER TABLE `users` ADD `avatar_updated_at` datetime[0m
+  [4;36;1mSQL (171.9ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20110410165817')[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (171.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mdescribe `users`[0m
+  [4;36;1mSQL (312.5ms)[0m   [0;1mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#new (for 127.0.0.1 at 2011-04-10 22:32:55) [GET]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mUser Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mUser Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+
+NoMethodError (undefined method `has_attached_file' for #<Class:0x4782150>):
+  app/models/user.rb:2
+  app/controllers/user_controller.rb:6:in `new'
+
+Rendered rescues/_trace (640.6ms)
+Rendered rescues/_request_and_response (171.9ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#new (for 127.0.0.1 at 2011-04-10 22:35:09) [GET]
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user/new
+
+ActionView::TemplateError (user_url failed to generate from {:action=>"show", :controller=>"user"} - you may have ambiguous routes, or you may need to supply additional parameters for this route.  content_url has the following required parameters: ["users", :id] - are they all satisfied?) on line #1 of app/views/user/new.html.erb:
+1: <% form_for :user, @user, :url => user_path, :html => { :multipart => true } do |form| %>
+2:   <%= form.text_field :name %>
+3:   <%= form.text_field :city %>
+4:   <%= form.text_field :country %>
+
+    (eval):17:in `user_path'
+    app/views/user/new.html.erb:1
+
+Rendered rescues/_trace (109.4ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#new (for 127.0.0.1 at 2011-04-10 22:36:52) [GET]
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user/new
+
+ActionView::TemplateError (user_url failed to generate from {:action=>"show", :controller=>"user"} - you may have ambiguous routes, or you may need to supply additional parameters for this route.  content_url has the following required parameters: ["users", :id] - are they all satisfied?) on line #1 of app/views/user/new.html.erb:
+1: <% form_for :user, @user, :url => user_path, :html => { :multipart => true } do |form| %>
+2:   <%= form.text_field :name %>
+3:   <%= form.text_field :city %>
+4:   <%= form.text_field :country %>
+
+    (eval):17:in `user_path'
+    app/views/user/new.html.erb:1
+
+Rendered rescues/_trace (109.4ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#new (for 127.0.0.1 at 2011-04-10 22:37:29) [GET]
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user/new
+
+ActionView::TemplateError (user_url failed to generate from {:action=>"show", :controller=>"user"} - you may have ambiguous routes, or you may need to supply additional parameters for this route.  content_url has the following required parameters: ["users", :id] - are they all satisfied?) on line #1 of app/views/user/new.html.erb:
+1: <% form_for :user, @user, :url => user_path, :html => { :multipart => true } do |form| %>
+2:   <%= form.text_field :name %>
+3:   <%= form.text_field :city %>
+4:   <%= form.text_field :country %>
+
+    (eval):17:in `user_path'
+    app/views/user/new.html.erb:1
+
+Rendered rescues/_trace (109.4ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#new (for 127.0.0.1 at 2011-04-10 22:37:33) [GET]
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user/new
+
+ActionView::TemplateError (user_url failed to generate from {:action=>"show", :controller=>"user"} - you may have ambiguous routes, or you may need to supply additional parameters for this route.  content_url has the following required parameters: ["users", :id] - are they all satisfied?) on line #1 of app/views/user/new.html.erb:
+1: <% form_for :user, @user, :url => user_path, :html => { :multipart => true } do |form| %>
+2:   <%= form.text_field :name %>
+3:   <%= form.text_field :city %>
+4:   <%= form.text_field :country %>
+
+    (eval):17:in `user_path'
+    app/views/user/new.html.erb:1
+
+Rendered rescues/_trace (109.4ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#new (for 127.0.0.1 at 2011-04-10 22:37:34) [GET]
+  [4;36;1mUser Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user/new
+
+ActionView::TemplateError (user_url failed to generate from {:action=>"show", :controller=>"user"} - you may have ambiguous routes, or you may need to supply additional parameters for this route.  content_url has the following required parameters: ["users", :id] - are they all satisfied?) on line #1 of app/views/user/new.html.erb:
+1: <% form_for :user, @user, :url => user_path, :html => { :multipart => true } do |form| %>
+2:   <%= form.text_field :name %>
+3:   <%= form.text_field :city %>
+4:   <%= form.text_field :country %>
+
+    (eval):17:in `user_path'
+    app/views/user/new.html.erb:1
+
+Rendered rescues/_trace (93.8ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#new (for 127.0.0.1 at 2011-04-10 22:37:34) [GET]
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user/new
+
+ActionView::TemplateError (user_url failed to generate from {:action=>"show", :controller=>"user"} - you may have ambiguous routes, or you may need to supply additional parameters for this route.  content_url has the following required parameters: ["users", :id] - are they all satisfied?) on line #1 of app/views/user/new.html.erb:
+1: <% form_for :user, @user, :url => user_path, :html => { :multipart => true } do |form| %>
+2:   <%= form.text_field :name %>
+3:   <%= form.text_field :city %>
+4:   <%= form.text_field :country %>
+
+    (eval):17:in `user_path'
+    app/views/user/new.html.erb:1
+
+Rendered rescues/_trace (156.3ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#new (for 127.0.0.1 at 2011-04-10 22:37:35) [GET]
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user/new
+
+ActionView::TemplateError (user_url failed to generate from {:action=>"show", :controller=>"user"} - you may have ambiguous routes, or you may need to supply additional parameters for this route.  content_url has the following required parameters: ["users", :id] - are they all satisfied?) on line #1 of app/views/user/new.html.erb:
+1: <% form_for :user, @user, :url => user_path, :html => { :multipart => true } do |form| %>
+2:   <%= form.text_field :name %>
+3:   <%= form.text_field :city %>
+4:   <%= form.text_field :country %>
+
+    (eval):17:in `user_path'
+    app/views/user/new.html.erb:1
+
+Rendered rescues/_trace (93.8ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#new (for 127.0.0.1 at 2011-04-10 22:39:30) [GET]
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user/new
+Completed in 172ms (View: 156, DB: 0) | 200 OK [http://localhost/user/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#create (for 127.0.0.1 at 2011-04-10 22:40:04) [POST]
+  Parameters: {"commit"=>"save", "authenticity_token"=>"T78wnvKdCyXWqRvq74iJwLCJkK70DUhh22VixmrPasg=", "user"=>{"city"=>"vtr", "name"=>"vtr", "country"=>"vtr", "avatar"=>#<File:C:/DOCUME~1/Mani/LOCALS~1/Temp/RackMultipart20110410-3548-yxoa94-0>}}
+  [4;35;1mUser Columns (62.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+[paperclip] identify -format %wx%h "C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110410-3548-1h9nkd7-0.jpg[0]" 2>NUL
+[paperclip] An error was received while processing: #<Paperclip::NotIdentifiedByImageMagickError: C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110410-3548-1h9nkd7-0.jpg is not recognized by the 'identify' command.>
+[paperclip] identify -format %wx%h "C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110410-3548-1h9nkd7-0.jpg[0]" 2>NUL
+[paperclip] An error was received while processing: #<Paperclip::NotIdentifiedByImageMagickError: C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110410-3548-1h9nkd7-0.jpg is not recognized by the 'identify' command.>
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+
+ActionView::MissingTemplate (Missing template user/create.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#new (for 127.0.0.1 at 2011-04-10 22:43:14) [GET]
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user/new
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/user/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#create (for 127.0.0.1 at 2011-04-10 22:43:28) [POST]
+  Parameters: {"commit"=>"save", "authenticity_token"=>"T78wnvKdCyXWqRvq74iJwLCJkK70DUhh22VixmrPasg=", "user"=>{"city"=>"hyd", "name"=>"vtr", "country"=>"in", "avatar"=>#<File:C:/DOCUME~1/Mani/LOCALS~1/Temp/RackMultipart20110410-3548-1pjye8i-0>}}
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+[paperclip] identify -format %wx%h "C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110410-3548-1fa8x7w-0.png[0]" 2>NUL
+[paperclip] An error was received while processing: #<Paperclip::NotIdentifiedByImageMagickError: C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110410-3548-1fa8x7w-0.png is not recognized by the 'identify' command.>
+[paperclip] identify -format %wx%h "C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110410-3548-1fa8x7w-0.png[0]" 2>NUL
+[paperclip] An error was received while processing: #<Paperclip::NotIdentifiedByImageMagickError: C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110410-3548-1fa8x7w-0.png is not recognized by the 'identify' command.>
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+
+ActionView::MissingTemplate (Missing template user/create.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#new (for 127.0.0.1 at 2011-04-10 22:43:47) [GET]
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user/new
+Completed in 266ms (View: 250, DB: 0) | 200 OK [http://localhost/user/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#new (for 127.0.0.1 at 2011-04-10 22:43:49) [GET]
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user/new
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/user/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#new (for 127.0.0.1 at 2011-04-10 22:43:50) [GET]
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user/new
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/user/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#new (for 127.0.0.1 at 2011-04-10 22:43:50) [GET]
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user/new
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/user/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#create (for 127.0.0.1 at 2011-04-10 22:44:05) [POST]
+  Parameters: {"commit"=>"save", "authenticity_token"=>"T78wnvKdCyXWqRvq74iJwLCJkK70DUhh22VixmrPasg=", "user"=>{"city"=>"palani", "name"=>"vtr", "country"=>"vtr", "avatar"=>#<File:C:/DOCUME~1/Mani/LOCALS~1/Temp/RackMultipart20110410-3548-1pi2asv-0>}}
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+[paperclip] identify -format %wx%h "C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110410-3548-1fzzahy-0.jpg[0]" 2>NUL
+[paperclip] An error was received while processing: #<Paperclip::NotIdentifiedByImageMagickError: C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110410-3548-1fzzahy-0.jpg is not recognized by the 'identify' command.>
+[paperclip] identify -format %wx%h "C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110410-3548-1fzzahy-0.jpg[0]" 2>NUL
+[paperclip] An error was received while processing: #<Paperclip::NotIdentifiedByImageMagickError: C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110410-3548-1fzzahy-0.jpg is not recognized by the 'identify' command.>
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+
+ActionView::MissingTemplate (Missing template user/create.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#new (for 127.0.0.1 at 2011-04-10 22:45:19) [GET]
+  [4;36;1mUser Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user/new
+
+ActionView::TemplateError (user_url failed to generate from {:action=>"show", :controller=>"user"} - you may have ambiguous routes, or you may need to supply additional parameters for this route.  content_url has the following required parameters: ["users", :id] - are they all satisfied?) on line #1 of app/views/user/new.html.erb:
+1: <% form_for :user, @user, :url => user_path, :html => { :multipart => true } do |form| %>
+2:   <%= form.text_field :name %>
+3:   <%= form.text_field :city %>
+4:   <%= form.text_field :country %>
+
+    (eval):17:in `user_path'
+    app/views/user/new.html.erb:1
+
+Rendered rescues/_trace (93.8ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#new (for 127.0.0.1 at 2011-04-10 22:45:48) [GET]
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user/new
+
+ActionView::TemplateError (user_url failed to generate from {:action=>"show", :controller=>"user"} - you may have ambiguous routes, or you may need to supply additional parameters for this route.  content_url has the following required parameters: ["user", :id] - are they all satisfied?) on line #1 of app/views/user/new.html.erb:
+1: <% form_for :user, @user, :url => user_path, :html => { :multipart => true } do |form| %>
+2:   <%= form.text_field :name %>
+3:   <%= form.text_field :city %>
+4:   <%= form.text_field :country %>
+
+    (eval):17:in `user_path'
+    app/views/user/new.html.erb:1
+
+Rendered rescues/_trace (93.8ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#new (for 127.0.0.1 at 2011-04-10 22:46:20) [GET]
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user/new
+
+ActionView::TemplateError (user_url failed to generate from {:action=>"show", :controller=>"user"} - you may have ambiguous routes, or you may need to supply additional parameters for this route.  content_url has the following required parameters: ["user", :id] - are they all satisfied?) on line #1 of app/views/user/new.html.erb:
+1: <% form_for :user, @user, :url => user_path, :html => { :multipart => true } do |form| %>
+2:   <%= form.text_field :name %>
+3:   <%= form.text_field :city %>
+4:   <%= form.text_field :country %>
+
+    (eval):17:in `user_path'
+    app/views/user/new.html.erb:1
+
+Rendered rescues/_trace (109.4ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#new (for 127.0.0.1 at 2011-04-10 22:47:31) [GET]
+  [4;36;1mUser Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user/new
+
+ActionView::TemplateError (undefined local variable or method `user_path' for #<ActionView::Base:0x43e4830>) on line #1 of app/views/user/new.html.erb:
+1: <% form_for :user, @user, :url => user_path, :html => { :multipart => true } do |form| %>
+2:   <%= form.text_field :name %>
+3:   <%= form.text_field :city %>
+4:   <%= form.text_field :country %>
+
+    app/views/user/new.html.erb:1
+
+Rendered rescues/_trace (93.8ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#new (for 127.0.0.1 at 2011-04-10 22:48:32) [GET]
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user/new
+
+ActionView::TemplateError (user_url failed to generate from {:action=>"show", :controller=>"user"} - you may have ambiguous routes, or you may need to supply additional parameters for this route.  content_url has the following required parameters: ["user", :id] - are they all satisfied?) on line #1 of app/views/user/new.html.erb:
+1: <% form_for :user, @user, :url => user_path, :html => { :multipart => true } do |form| %>
+2:   <%= form.text_field :name %>
+3:   <%= form.text_field :city %>
+4:   <%= form.text_field :country %>
+
+    (eval):17:in `user_path'
+    app/views/user/new.html.erb:1
+
+Rendered rescues/_trace (93.8ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#new (for 127.0.0.1 at 2011-04-10 22:49:23) [GET]
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user/new
+Completed in 63ms (View: 31, DB: 0) | 200 OK [http://localhost/user/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#create (for 127.0.0.1 at 2011-04-10 22:49:37) [POST]
+  Parameters: {"commit"=>"save", "authenticity_token"=>"T78wnvKdCyXWqRvq74iJwLCJkK70DUhh22VixmrPasg=", "user"=>{"city"=>"hyd", "name"=>"vtr", "country"=>"vtr", "avatar"=>#<File:C:/DOCUME~1/Mani/LOCALS~1/Temp/RackMultipart20110410-4688-1txgalb-0>}}
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+[paperclip] identify -format %wx%h "C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110410-4688-1xlsi09-0.jpg[0]" 2>NUL
+[paperclip] An error was received while processing: #<Paperclip::NotIdentifiedByImageMagickError: C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110410-4688-1xlsi09-0.jpg is not recognized by the 'identify' command.>
+[paperclip] identify -format %wx%h "C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110410-4688-1xlsi09-0.jpg[0]" 2>NUL
+[paperclip] An error was received while processing: #<Paperclip::NotIdentifiedByImageMagickError: C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110410-4688-1xlsi09-0.jpg is not recognized by the 'identify' command.>
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+
+ActionView::MissingTemplate (Missing template user/create.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#new (for 127.0.0.1 at 2011-04-10 22:50:01) [GET]
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user/new
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/user/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#new (for 127.0.0.1 at 2011-04-10 22:50:02) [GET]
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user/new
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/user/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#new (for 127.0.0.1 at 2011-04-10 22:50:03) [GET]
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user/new
+Completed in 78ms (View: 0, DB: 0) | 200 OK [http://localhost/user/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#new (for 127.0.0.1 at 2011-04-10 22:50:03) [GET]
+  [4;36;1mUser Columns (109.4ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user/new
+Completed in 125ms (View: 0, DB: 109) | 200 OK [http://localhost/user/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#create (for 127.0.0.1 at 2011-04-10 22:50:14) [POST]
+  Parameters: {"commit"=>"save", "authenticity_token"=>"T78wnvKdCyXWqRvq74iJwLCJkK70DUhh22VixmrPasg=", "user"=>{"city"=>"hyd", "name"=>"vtr", "country"=>"vtr", "avatar"=>#<File:C:/DOCUME~1/Mani/LOCALS~1/Temp/RackMultipart20110410-4688-17ytbrb-0>}}
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+[paperclip] identify -format %wx%h "C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110410-4688-1vmttmi-0.jpg[0]" 2>NUL
+[paperclip] An error was received while processing: #<Paperclip::NotIdentifiedByImageMagickError: C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110410-4688-1vmttmi-0.jpg is not recognized by the 'identify' command.>
+[paperclip] identify -format %wx%h "C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110410-4688-1vmttmi-0.jpg[0]" 2>NUL
+[paperclip] An error was received while processing: #<Paperclip::NotIdentifiedByImageMagickError: C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110410-4688-1vmttmi-0.jpg is not recognized by the 'identify' command.>
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+
+ActionView::MissingTemplate (Missing template user/create.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#new (for 127.0.0.1 at 2011-04-10 22:50:43) [GET]
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user/new
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/user/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#create (for 127.0.0.1 at 2011-04-10 22:50:57) [POST]
+  Parameters: {"commit"=>"save", "authenticity_token"=>"T78wnvKdCyXWqRvq74iJwLCJkK70DUhh22VixmrPasg=", "user"=>{"city"=>"hyd", "name"=>"vtr", "country"=>"vtr"}}
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Create (0.0ms)[0m   [0mINSERT INTO `users` (`name`, `city`, `created_at`, `avatar_file_name`, `avatar_file_size`, `country`, `updated_at`, `avatar_content_type`, `avatar_updated_at`) VALUES('vtr', 'hyd', '2011-04-10 17:20:57', NULL, NULL, 'vtr', '2011-04-10 17:20:57', NULL, NULL)[0m
+[paperclip] Saving attachments.
+  [4;36;1mSQL (234.4ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed in 266ms (DB: 234) | 302 Found [http://localhost/users]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-04-10 22:50:57) [GET]
+Rendering template within layouts/application
+Rendering user/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#create (for 127.0.0.1 at 2011-04-10 22:51:12) [POST]
+  Parameters: {"commit"=>"save", "authenticity_token"=>"T78wnvKdCyXWqRvq74iJwLCJkK70DUhh22VixmrPasg=", "user"=>{"city"=>"hyd", "name"=>"vtr", "country"=>"vtr", "avatar"=>#<File:C:/DOCUME~1/Mani/LOCALS~1/Temp/RackMultipart20110410-4688-mbjq12-0>}}
+  [4;35;1mUser Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+[paperclip] identify -format %wx%h "C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110410-4688-fr2ccq-0.jpg[0]" 2>NUL
+[paperclip] An error was received while processing: #<Paperclip::NotIdentifiedByImageMagickError: C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110410-4688-fr2ccq-0.jpg is not recognized by the 'identify' command.>
+[paperclip] identify -format %wx%h "C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110410-4688-fr2ccq-0.jpg[0]" 2>NUL
+[paperclip] An error was received while processing: #<Paperclip::NotIdentifiedByImageMagickError: C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110410-4688-fr2ccq-0.jpg is not recognized by the 'identify' command.>
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+
+ActionView::MissingTemplate (Missing template user/create.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-04-11 19:01:44) [GET]
+Rendering template within layouts/application
+Rendering user/index
+Completed in 219ms (View: 203, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#new (for 127.0.0.1 at 2011-04-11 19:02:08) [GET]
+  [4;36;1mUser Columns (328.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user/new
+Completed in 406ms (View: 63, DB: 328) | 200 OK [http://localhost/user/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#create (for 127.0.0.1 at 2011-04-11 19:02:51) [POST]
+  Parameters: {"commit"=>"save", "authenticity_token"=>"T78wnvKdCyXWqRvq74iJwLCJkK70DUhh22VixmrPasg=", "user"=>{"city"=>"2", "name"=>"1", "country"=>"3", "avatar"=>#<File:C:/DOCUME~1/Mani/LOCALS~1/Temp/RackMultipart20110411-212-7ph3n7-0>}}
+  [4;35;1mUser Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+[paperclip] identify -format %wx%h "C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110411-212-14b8wdm-0.jpg[0]" 2>NUL
+[paperclip] An error was received while processing: #<Paperclip::NotIdentifiedByImageMagickError: C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110411-212-14b8wdm-0.jpg is not recognized by the 'identify' command.>
+[paperclip] identify -format %wx%h "C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110411-212-14b8wdm-0.jpg[0]" 2>NUL
+[paperclip] An error was received while processing: #<Paperclip::NotIdentifiedByImageMagickError: C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110411-212-14b8wdm-0.jpg is not recognized by the 'identify' command.>
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+
+ActionView::MissingTemplate (Missing template user/create.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#new (for 127.0.0.1 at 2011-04-11 19:06:42) [GET]
+  [4;36;1mUser Columns (46.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user/new
+Completed in 266ms (View: 203, DB: 47) | 200 OK [http://localhost/user/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#create (for 127.0.0.1 at 2011-04-11 19:07:02) [POST]
+  Parameters: {"commit"=>"save", "authenticity_token"=>"T78wnvKdCyXWqRvq74iJwLCJkK70DUhh22VixmrPasg=", "user"=>{"city"=>"2", "name"=>"1", "country"=>"3", "avatar"=>#<File:C:/DOCUME~1/Mani/LOCALS~1/Temp/RackMultipart20110411-5564-fl0vqp-0>}}
+  [4;35;1mUser Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+[paperclip] identify -format %wx%h "C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110411-5564-1k8wtfx-0.png[0]" 2>NUL
+[paperclip] An error was received while processing: #<Paperclip::NotIdentifiedByImageMagickError: C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110411-5564-1k8wtfx-0.png is not recognized by the 'identify' command.>
+[paperclip] identify -format %wx%h "C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110411-5564-1k8wtfx-0.png[0]" 2>NUL
+[paperclip] An error was received while processing: #<Paperclip::NotIdentifiedByImageMagickError: C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110411-5564-1k8wtfx-0.png is not recognized by the 'identify' command.>
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+
+ActionView::MissingTemplate (Missing template user/create.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#create (for 127.0.0.1 at 2011-04-11 19:25:35) [POST]
+  Parameters: {"commit"=>"save", "authenticity_token"=>"T78wnvKdCyXWqRvq74iJwLCJkK70DUhh22VixmrPasg=", "user"=>{"city"=>"2", "name"=>"1", "country"=>"3", "avatar"=>#<File:C:/DOCUME~1/Mani/LOCALS~1/Temp/RackMultipart20110411-2940-r8hgiu-0>}}
+  [4;36;1mUser Columns (218.8ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+[paperclip] C:/Program Files/ImageMagick-6.5.6-Q8/identify -format %wx%h "C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110411-2940-18ydf39-0.jpg[0]" 2>NUL
+[paperclip] An error was received while processing: #<Paperclip::NotIdentifiedByImageMagickError: C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110411-2940-18ydf39-0.jpg is not recognized by the 'identify' command.>
+[paperclip] C:/Program Files/ImageMagick-6.5.6-Q8/identify -format %wx%h "C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110411-2940-18ydf39-0.jpg[0]" 2>NUL
+[paperclip] An error was received while processing: #<Paperclip::NotIdentifiedByImageMagickError: C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110411-2940-18ydf39-0.jpg is not recognized by the 'identify' command.>
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+
+ActionView::MissingTemplate (Missing template user/create.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#new (for 127.0.0.1 at 2011-04-11 19:26:49) [GET]
+  [4;35;1mUser Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user/new
+Completed in 63ms (View: 16, DB: 16) | 200 OK [http://localhost/user/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#create (for 127.0.0.1 at 2011-04-11 19:27:06) [POST]
+  Parameters: {"commit"=>"save", "authenticity_token"=>"T78wnvKdCyXWqRvq74iJwLCJkK70DUhh22VixmrPasg=", "user"=>{"city"=>"1", "name"=>"1", "country"=>"1", "avatar"=>#<File:C:/DOCUME~1/Mani/LOCALS~1/Temp/RackMultipart20110411-2940-1j9ltro-0>}}
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+[paperclip] C:/Program Files/ImageMagick-6.5.6-Q8/identify -format %wx%h "C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110411-2940-zb4g0j-0.jpg[0]" 2>NUL
+[paperclip] An error was received while processing: #<Paperclip::NotIdentifiedByImageMagickError: C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110411-2940-zb4g0j-0.jpg is not recognized by the 'identify' command.>
+[paperclip] C:/Program Files/ImageMagick-6.5.6-Q8/identify -format %wx%h "C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110411-2940-zb4g0j-0.jpg[0]" 2>NUL
+[paperclip] An error was received while processing: #<Paperclip::NotIdentifiedByImageMagickError: C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110411-2940-zb4g0j-0.jpg is not recognized by the 'identify' command.>
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+
+ActionView::MissingTemplate (Missing template user/create.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#new (for 127.0.0.1 at 2011-04-11 19:29:22) [GET]
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user/new
+Completed in 63ms (View: 47, DB: 0) | 200 OK [http://localhost/user/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#create (for 127.0.0.1 at 2011-04-11 19:29:35) [POST]
+  Parameters: {"commit"=>"save", "authenticity_token"=>"T78wnvKdCyXWqRvq74iJwLCJkK70DUhh22VixmrPasg=", "user"=>{"city"=>"hyd", "name"=>"1", "country"=>"vtr", "avatar"=>#<File:C:/DOCUME~1/Mani/LOCALS~1/Temp/RackMultipart20110411-2020-1hbp31l-0>}}
+  [4;35;1mUser Columns (78.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+[paperclip] C:Program FilesImageMagick-6.5.6-Q8/identify -format %wx%h "C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110411-2020-1ebfu9r-0.png[0]" 2>NUL
+[paperclip] An error was received while processing: #<Paperclip::NotIdentifiedByImageMagickError: C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110411-2020-1ebfu9r-0.png is not recognized by the 'identify' command.>
+[paperclip] C:Program FilesImageMagick-6.5.6-Q8/identify -format %wx%h "C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110411-2020-1ebfu9r-0.png[0]" 2>NUL
+[paperclip] An error was received while processing: #<Paperclip::NotIdentifiedByImageMagickError: C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110411-2020-1ebfu9r-0.png is not recognized by the 'identify' command.>
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+
+ActionView::MissingTemplate (Missing template user/create.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (562.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (31.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#new (for 127.0.0.1 at 2011-04-11 19:53:29) [GET]
+  [4;36;1mUser Columns (890.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user/new
+Completed in 2219ms (View: 1266, DB: 1484) | 200 OK [http://localhost/user/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#create (for 127.0.0.1 at 2011-04-11 19:53:54) [POST]
+  Parameters: {"commit"=>"save", "authenticity_token"=>"Faz90mV6QhEi3UruLXHAfriE287uT1gfi8fqh/VfPGA=", "user"=>{"city"=>"rtest", "name"=>"testser", "country"=>"test", "avatar"=>#<File:C:/DOCUME~1/Mani/LOCALS~1/Temp/RackMultipart20110411-5372-1mrd1p3-0>}}
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+[paperclip] C:Program FilesImageMagick-6.5.6-Q8/identify -format %wx%h "C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110411-5372-o5e2iv-0.jpg[0]" 2>NUL
+[paperclip] An error was received while processing: #<Paperclip::NotIdentifiedByImageMagickError: C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110411-5372-o5e2iv-0.jpg is not recognized by the 'identify' command.>
+[paperclip] C:Program FilesImageMagick-6.5.6-Q8/identify -format %wx%h "C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110411-5372-o5e2iv-0.jpg[0]" 2>NUL
+[paperclip] An error was received while processing: #<Paperclip::NotIdentifiedByImageMagickError: C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110411-5372-o5e2iv-0.jpg is not recognized by the 'identify' command.>
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+
+ActionView::MissingTemplate (Missing template user/create.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#new (for 127.0.0.1 at 2011-04-11 19:57:31) [GET]
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user/new
+Completed in 453ms (View: 438, DB: 0) | 200 OK [http://localhost/user/new]
+  [4;35;1mSQL (15.6ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#create (for 127.0.0.1 at 2011-04-11 19:57:49) [POST]
+  Parameters: {"commit"=>"save", "authenticity_token"=>"VXYC7ZjoJGEyxVVEJ0TmMpmEh6y6HroAKaV9STG9ePI=", "user"=>{"city"=>"fdsf", "name"=>"sfd", "country"=>"fdsf", "avatar"=>#<File:C:/DOCUME~1/Mani/LOCALS~1/Temp/RackMultipart20110411-3308-oe2kn7-0>}}
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+[paperclip] C:Program FilesImageMagick-6.5.6-Q8/identify -format %wx%h "C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110411-3308-16kvoyj-0.png[0]" 2>NUL
+[paperclip] An error was received while processing: #<Paperclip::NotIdentifiedByImageMagickError: C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110411-3308-16kvoyj-0.png is not recognized by the 'identify' command.>
+[paperclip] C:Program FilesImageMagick-6.5.6-Q8/identify -format %wx%h "C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110411-3308-16kvoyj-0.png[0]" 2>NUL
+[paperclip] An error was received while processing: #<Paperclip::NotIdentifiedByImageMagickError: C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110411-3308-16kvoyj-0.png is not recognized by the 'identify' command.>
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+
+ActionView::MissingTemplate (Missing template user/create.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-04-11 20:04:17) [GET]
+Rendering template within layouts/application
+Rendering user/index
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#new (for 127.0.0.1 at 2011-04-11 20:04:23) [GET]
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user/new
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/user/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#create (for 127.0.0.1 at 2011-04-11 20:04:38) [POST]
+  Parameters: {"commit"=>"save", "authenticity_token"=>"VXYC7ZjoJGEyxVVEJ0TmMpmEh6y6HroAKaV9STG9ePI=", "user"=>{"city"=>"hyd", "name"=>"1", "country"=>"vtr", "avatar"=>#<File:C:/DOCUME~1/Mani/LOCALS~1/Temp/RackMultipart20110411-5240-uciqkd-0>}}
+  [4;35;1mUser Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+[paperclip] identify -format %wx%h "C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110411-5240-13kxjkc-0.jpg[0]" 2>NUL
+[paperclip] convert "C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110411-5240-13kxjkc-0.jpg[0]" -resize "300x300>" "C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110411-5240-13kxjkc-020110411-5240-1xtbylq-0" 2>NUL
+[paperclip] identify -format %wx%h "C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110411-5240-13kxjkc-0.jpg[0]" 2>NUL
+[paperclip] convert "C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110411-5240-13kxjkc-0.jpg[0]" -resize "100x100>" "C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110411-5240-13kxjkc-020110411-5240-oy9q1s-0" 2>NUL
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Create (234.4ms)[0m   [0mINSERT INTO `users` (`name`, `city`, `created_at`, `avatar_file_name`, `avatar_file_size`, `country`, `updated_at`, `avatar_content_type`, `avatar_updated_at`) VALUES('1', 'hyd', '2011-04-11 14:34:44', 'abdul_kalam.jpg', 14856, 'vtr', '2011-04-11 14:34:44', 'image/jpeg', '2011-04-11 14:34:38')[0m
+[paperclip] Saving attachments.
+[paperclip] saving C:/PersonalPrj/vtr/public/system/avatars/9/original/abdul_kalam.jpg
+[paperclip] saving C:/PersonalPrj/vtr/public/system/avatars/9/medium/abdul_kalam.jpg
+[paperclip] saving C:/PersonalPrj/vtr/public/system/avatars/9/thumb/abdul_kalam.jpg
+  [4;36;1mSQL (125.0ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed in 6016ms (DB: 375) | 302 Found [http://localhost/users]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-04-11 20:04:44) [GET]
+Rendering template within layouts/application
+Rendering user/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (140.6ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (125.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-04-11 22:58:40) [GET]
+  [4;35;1mUser Load (1359.4ms)[0m   [0mSELECT * FROM `users` [0m
+Rendering template within layouts/application
+Rendering user/index
+  [4;36;1mUser Columns (234.4ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 5641ms (View: 1844, DB: 1859) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#show (for 127.0.0.1 at 2011-04-11 23:01:04) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.find):
+  app/controllers/user_controller.rb:19:in `show'
+
+Rendered rescues/_trace (156.3ms)
+Rendered rescues/_request_and_response (187.5ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#show (for 127.0.0.1 at 2011-04-11 23:01:59) [GET]
+
+NoMethodError (undefined method `find_by_id' for nil:NilClass):
+  app/controllers/user_controller.rb:19:in `show'
+
+Rendered rescues/_trace (7031.3ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#show (for 127.0.0.1 at 2011-04-11 23:02:18) [GET]
+
+NoMethodError (undefined method `find_by' for nil:NilClass):
+  app/controllers/user_controller.rb:19:in `show'
+
+Rendered rescues/_trace (78.1ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#show (for 127.0.0.1 at 2011-04-11 23:03:10) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.find):
+  app/controllers/user_controller.rb:19:in `show'
+
+Rendered rescues/_trace (62.5ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#show (for 127.0.0.1 at 2011-04-11 23:03:24) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.find):
+  app/controllers/user_controller.rb:19:in `show'
+
+Rendered rescues/_trace (78.1ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#show (for 127.0.0.1 at 2011-04-11 23:03:26) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.find):
+  app/controllers/user_controller.rb:19:in `show'
+
+Rendered rescues/_trace (218.8ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#show (for 127.0.0.1 at 2011-04-11 23:03:31) [GET]
+  Parameters: {"id"=>"1"}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.find):
+  app/controllers/user_controller.rb:19:in `show'
+
+Rendered rescues/_trace (78.1ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#1 (for 127.0.0.1 at 2011-04-11 23:03:45) [GET]
+  Parameters: {"id"=>"shw"}
+
+ActionController::UnknownAction (No action responded to 1. Actions: create, edit, index, list, new, and show):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#1 (for 127.0.0.1 at 2011-04-11 23:03:55) [GET]
+  Parameters: {"id"=>"show"}
+
+ActionController::UnknownAction (No action responded to 1. Actions: create, edit, index, list, new, and show):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#1 (for 127.0.0.1 at 2011-04-11 23:04:15) [GET]
+  Parameters: {"id"=>"show"}
+
+ActionController::UnknownAction (No action responded to 1. Actions: create, edit, index, list, new, and show):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#1 (for 127.0.0.1 at 2011-04-11 23:04:16) [GET]
+  Parameters: {"id"=>"show"}
+
+ActionController::UnknownAction (No action responded to 1. Actions: create, edit, index, list, new, and show):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#1 (for 127.0.0.1 at 2011-04-11 23:04:16) [GET]
+  Parameters: {"id"=>"show"}
+
+ActionController::UnknownAction (No action responded to 1. Actions: create, edit, index, list, new, and show):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#show (for 127.0.0.1 at 2011-04-11 23:04:26) [GET]
+  Parameters: {"id"=>"1"}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.find):
+  app/controllers/user_controller.rb:19:in `show'
+
+Rendered rescues/_trace (218.8ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#show (for 127.0.0.1 at 2011-04-11 23:04:27) [GET]
+  Parameters: {"id"=>"1"}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.find):
+  app/controllers/user_controller.rb:19:in `show'
+
+Rendered rescues/_trace (62.5ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#show (for 127.0.0.1 at 2011-04-11 23:07:14) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Columns (46.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (359.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering user/show
+Completed in 438ms (View: 16, DB: 406) | 200 OK [http://localhost/user/show/1]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-04-11 23:09:07) [GET]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` [0m
+Rendering template within layouts/application
+Rendering user/index
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+
+ActionView::TemplateError (undefined method `name' for #<Array:0x4641300>) on line #2 of app/views/user/index.html.erb:
+1: <% @user.each do |f| %>
+2: <%= link_to @user.name, :controller=>"user", :action=>"show", :id=>@user.id%>
+3: <br />
+4: <% end %>
+
+    app/views/user/index.html.erb:2
+    app/views/user/index.html.erb:1:in `each'
+    app/views/user/index.html.erb:1
+
+Rendered rescues/_trace (250.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-04-11 23:09:42) [GET]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` [0m
+Rendering template within layouts/application
+Rendering user/index
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 266ms (View: 250, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#show (for 127.0.0.1 at 2011-04-11 23:09:50) [GET]
+  Parameters: {"id"=>"37673364"}
+  [4;35;1mUser Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 37673364) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find User with ID=37673364):
+  app/controllers/user_controller.rb:19:in `show'
+
+Rendered rescues/_trace (78.1ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-04-11 23:10:52) [GET]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` [0m
+Rendering template within layouts/application
+Rendering user/index
+  [4;36;1mUser Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 31ms (View: 0, DB: 16) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-04-11 23:11:09) [GET]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` [0m
+Rendering template within layouts/application
+Rendering user/index
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-04-11 23:11:53) [GET]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` [0m
+Rendering template within layouts/application
+Rendering user/index
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 203ms (View: 78, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-04-11 23:15:47) [GET]
+  [4;36;1mUser Load (62.5ms)[0m   [0;1mSELECT * FROM `users` [0m
+Rendering template within layouts/application
+Rendering user/index
+  [4;35;1mUser Columns (78.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 734ms (View: 547, DB: 141) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#show (for 127.0.0.1 at 2011-04-11 23:16:36) [GET]
+
+ActiveRecord::RecordNotFound (Couldn't find User without an ID):
+  app/controllers/user_controller.rb:19:in `show'
+
+Rendered rescues/_trace (78.1ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-04-11 23:16:42) [GET]
+
+ActionController::RoutingError (No route matches "/show/1" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-04-11 23:18:07) [GET]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` [0m
+Rendering template within layouts/application
+Rendering user/index
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 156ms (View: 141, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-04-11 23:18:49) [GET]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` [0m
+Rendering template within layouts/application
+Rendering user/index
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-04-11 23:19:23) [GET]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` [0m
+Rendering template within layouts/application
+Rendering user/index
+  [4;35;1mUser Columns (78.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 94ms (View: 0, DB: 78) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#show (for 127.0.0.1 at 2011-04-11 23:19:26) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering user/show
+Completed in 78ms (View: 63, DB: 16) | 200 OK [http://localhost/users/1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#show (for 127.0.0.1 at 2011-04-11 23:19:30) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mUser Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 2) [0m
+Rendering template within layouts/application
+Rendering user/show
+Completed in 16ms (View: 0, DB: 16) | 200 OK [http://localhost/users/2]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-04-11 23:20:56) [GET]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` [0m
+Rendering template within layouts/application
+Rendering user/index
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 266ms (View: 250, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#show (for 127.0.0.1 at 2011-04-11 23:20:59) [GET]
+  Parameters: {"id"=>"9"}
+  [4;36;1mUser Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 9) [0m
+Rendering template within layouts/application
+Rendering user/show
+Completed in 78ms (View: 63, DB: 16) | 200 OK [http://localhost/users/9]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#show (for 127.0.0.1 at 2011-04-11 23:21:40) [GET]
+  Parameters: {"id"=>"9"}
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 9) [0m
+Rendering template within layouts/application
+Rendering user/show
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/users/9]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#show (for 127.0.0.1 at 2011-04-11 23:21:55) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering user/show
+Completed in 16ms (View: 0, DB: 16) | 200 OK [http://localhost/users/1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-04-11 23:21:55) [GET]
+
+ActionController::RoutingError (No route matches "/avatars/thumb/missing.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#show (for 127.0.0.1 at 2011-04-11 23:21:58) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 5) [0m
+Rendering template within layouts/application
+Rendering user/show
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/users/5]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-04-11 23:21:58) [GET]
+
+ActionController::RoutingError (No route matches "/avatars/thumb/missing.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#show (for 127.0.0.1 at 2011-04-11 23:22:01) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 3) [0m
+Rendering template within layouts/application
+Rendering user/show
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/users/3]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-04-11 23:22:01) [GET]
+
+ActionController::RoutingError (No route matches "/avatars/thumb/missing.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-04-11 23:22:06) [GET]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` [0m
+Rendering template within layouts/application
+Rendering user/index
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-04-11 23:22:06) [GET]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` [0m
+Rendering template within layouts/application
+Rendering user/index
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-04-11 23:22:06) [GET]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` [0m
+Rendering template within layouts/application
+Rendering user/index
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#1 (for 127.0.0.1 at 2011-04-12 08:35:44) [GET]
+  Parameters: {"id"=>"edit"}
+
+ActionController::UnknownAction (No action responded to 1. Actions: create, edit, index, list, new, and show):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#edit (for 127.0.0.1 at 2011-04-12 08:35:55) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Columns (78.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering user/edit
+Completed in 125ms (View: 16, DB: 78) | 200 OK [http://localhost/user/edit/1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#edit (for 127.0.0.1 at 2011-04-12 08:38:48) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering user/edit
+Completed in 63ms (View: 31, DB: 16) | 200 OK [http://localhost/user/edit/1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#update (for 127.0.0.1 at 2011-04-12 08:39:00) [PUT]
+  Parameters: {"commit"=>"save", "authenticity_token"=>"VXYC7ZjoJGEyxVVEJ0TmMpmEh6y6HroAKaV9STG9ePI=", "id"=>"1", "user"=>{"city"=>"hyd", "name"=>"vtr", "country"=>"in", "avatar"=>#<File:C:/DOCUME~1/Mani/LOCALS~1/Temp/RackMultipart20110412-5396-bpfn29-0>}}
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mSQL (78.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (62.5ms)[0m   [0mROLLBACK[0m
+
+TypeError (can't dup Symbol):
+  app/controllers/user_controller.rb:31:in `update'
+
+Rendered rescues/_trace (281.3ms)
+Rendered rescues/_request_and_response (46.9ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#edit (for 127.0.0.1 at 2011-04-12 08:39:18) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering user/edit
+Completed in 78ms (View: 16, DB: 16) | 200 OK [http://localhost/user/edit/1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#update (for 127.0.0.1 at 2011-04-12 08:39:25) [PUT]
+  Parameters: {"commit"=>"save", "authenticity_token"=>"VXYC7ZjoJGEyxVVEJ0TmMpmEh6y6HroAKaV9STG9ePI=", "id"=>"1", "user"=>{"city"=>"hyd", "name"=>"vtr", "country"=>"in", "avatar"=>#<File:C:/DOCUME~1/Mani/LOCALS~1/Temp/RackMultipart20110412-5396-1x6dtke-0>}}
+  [4;36;1mUser Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+[paperclip] identify -format %wx%h "C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110412-5396-63hkda-0.jpg[0]" 2>NUL
+[paperclip] convert "C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110412-5396-63hkda-0.jpg[0]" -resize "300x300>" "C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110412-5396-63hkda-020110412-5396-6p9343-0" 2>NUL
+[paperclip] identify -format %wx%h "C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110412-5396-63hkda-0.jpg[0]" 2>NUL
+[paperclip] convert "C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110412-5396-63hkda-0.jpg[0]" -resize "100x100>" "C:/DOCUME~1/Mani/LOCALS~1/Temp/stream20110412-5396-63hkda-020110412-5396-1mfxqbv-0" 2>NUL
+  [4;35;1mUser Update (296.9ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-04-12 03:09:32', `avatar_file_size` = 190203, `avatar_file_name` = 'activation.jpg', `avatar_updated_at` = '2011-04-12 03:09:25', `avatar_content_type` = 'image/jpeg' WHERE `id` = 1[0m
+[paperclip] Saving attachments.
+[paperclip] saving C:/PersonalPrj/vtr/public/system/avatars/1/original/activation.jpg
+[paperclip] saving C:/PersonalPrj/vtr/public/system/avatars/1/medium/activation.jpg
+[paperclip] saving C:/PersonalPrj/vtr/public/system/avatars/1/thumb/activation.jpg
+  [4;36;1mSQL (343.8ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed in 7906ms (DB: 656) | 302 Found [http://localhost/users/1]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-04-12 08:39:33) [GET]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` [0m
+Rendering template within layouts/application
+Rendering user/index
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#show (for 127.0.0.1 at 2011-04-12 08:39:37) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering user/show
+Completed in 47ms (View: 16, DB: 0) | 200 OK [http://localhost/users/1]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-04-12 08:40:42) [GET]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` [0m
+Rendering template within layouts/application
+Rendering user/index
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-04-12 08:43:04) [GET]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` [0m
+Rendering template within layouts/application
+Rendering user/index
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 109ms (View: 94, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-04-12 08:43:29) [GET]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` [0m
+Rendering template within layouts/application
+Rendering user/index
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 78ms (View: 63, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#edit (for 127.0.0.1 at 2011-04-12 08:43:37) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering user/edit
+Completed in 188ms (View: 78, DB: 0) | 200 OK [http://localhost/users/1/edit]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#edit (for 127.0.0.1 at 2011-04-12 08:43:46) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering user/edit
+Completed in 31ms (View: 0, DB: 0) | 200 OK [http://localhost/users/1/edit]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-04-12 08:43:53) [GET]
+
+ActionController::RoutingError (No route matches "/users/edit/1" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (15.6ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-04-12 09:18:09) [GET]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` [0m
+Rendering template within layouts/application
+Rendering user/index
+  [4;36;1mUser Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 109ms (View: 63, DB: 31) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-04-12 09:21:17) [GET]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` [0m
+Rendering template within layouts/application
+Rendering user/index
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-04-12 09:21:18) [GET]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` [0m
+Rendering template within layouts/application
+Rendering user/index
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-04-12 09:21:19) [GET]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` [0m
+Rendering template within layouts/application
+Rendering user/index
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#show (for 127.0.0.1 at 2011-04-12 09:21:20) [GET]
+  Parameters: {"id"=>"8"}
+  [4;35;1mUser Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (234.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 8) [0m
+Rendering template within layouts/application
+Rendering user/show
+Completed in 250ms (View: 0, DB: 250) | 200 OK [http://localhost/users/8]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-04-12 09:21:21) [GET]
+
+ActionController::RoutingError (No route matches "/avatars/thumb/missing.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-04-12 19:49:34) [GET]
+  [4;35;1mUser Load (31.3ms)[0m   [0mSELECT * FROM `users` [0m
+Rendering template within layouts/application
+Rendering user/index
+  [4;36;1mUser Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 63ms (View: 0, DB: 47) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#destroy (for 127.0.0.1 at 2011-04-12 19:50:13) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Columns (31.3ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+[paperclip] Deleting attachments.
+[paperclip] deleting C:/PersonalPrj/vtr/public/system/avatars/1/original/activation.jpg
+[paperclip] deleting C:/PersonalPrj/vtr/public/system/avatars/1/medium/activation.jpg
+[paperclip] deleting C:/PersonalPrj/vtr/public/system/avatars/1/thumb/activation.jpg
+  [4;36;1mUser Destroy (296.9ms)[0m   [0;1mDELETE FROM `users` WHERE `id` = 1[0m
+  [4;35;1mSQL (453.1ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed in 1047ms (DB: 781) | 302 Found [http://localhost/user/destroy/1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-04-12 19:50:14) [GET]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` [0m
+Rendering template within layouts/application
+Rendering user/index
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-04-12 19:51:24) [GET]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` [0m
+Rendering template within layouts/application
+Rendering user/index
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 188ms (View: 94, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-04-12 19:51:45) [GET]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` [0m
+Rendering template within layouts/application
+Rendering user/index
+  [4;35;1mUser Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 422ms (View: 188, DB: 16) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-04-12 19:52:13) [GET]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` [0m
+Rendering template within layouts/application
+Rendering user/index
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-04-12 19:52:29) [GET]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` [0m
+Rendering template within layouts/application
+Rendering user/index
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-04-12 19:53:16) [GET]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` [0m
+Rendering template within layouts/application
+Rendering user/index
+  [4;35;1mUser Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 31ms (View: 0, DB: 16) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-04-12 19:53:20) [GET]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` [0m
+Rendering template within layouts/application
+Rendering user/index
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-04-12 19:53:20) [GET]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` [0m
+Rendering template within layouts/application
+Rendering user/index
+  [4;35;1mUser Columns (31.3ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 47ms (View: 0, DB: 31) | 200 OK [http://localhost/]
+  [4;36;1mSQL (31.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-04-12 19:53:20) [GET]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` [0m
+Rendering template within layouts/application
+Rendering user/index
+  [4;35;1mUser Columns (843.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 922ms (View: 31, DB: 875) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-04-12 19:54:04) [GET]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` [0m
+Rendering template within layouts/application
+Rendering user/index
+  [4;35;1mUser Columns (31.3ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 47ms (View: 0, DB: 31) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-04-12 19:54:29) [GET]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` [0m
+Rendering template within layouts/application
+Rendering user/index
+  [4;35;1mUser Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 31ms (View: 0, DB: 16) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-04-12 19:54:58) [GET]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` [0m
+Rendering template within layouts/application
+Rendering user/index
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 172ms (View: 78, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-04-12 19:55:10) [GET]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` [0m
+Rendering template within layouts/application
+Rendering user/index
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 78ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#delete (for 127.0.0.1 at 2011-04-12 19:55:13) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 2) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+[paperclip] Deleting attachments.
+  [4;35;1mUser Destroy (187.5ms)[0m   [0mDELETE FROM `users` WHERE `id` = 2[0m
+  [4;36;1mSQL (78.1ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed in 344ms (DB: 266) | 302 Found [http://localhost/user/delete/2]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-04-12 19:55:13) [GET]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` [0m
+Rendering template within layouts/application
+Rendering user/index
+  [4;36;1mUser Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 47ms (View: 16, DB: 16) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-04-12 19:55:34) [GET]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` [0m
+Rendering template within layouts/application
+Rendering user/index
+  [4;36;1mUser Columns (46.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 63ms (View: 0, DB: 47) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-04-12 19:55:35) [GET]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` [0m
+Rendering template within layouts/application
+Rendering user/index
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-04-12 19:55:35) [GET]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` [0m
+Rendering template within layouts/application
+Rendering user/index
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-04-12 20:15:10) [GET]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` [0m
+Rendering template within layouts/application
+Rendering user/index
+  [4;36;1mUser Columns (296.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 391ms (View: 78, DB: 297) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-04-12 20:15:12) [GET]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` [0m
+Rendering template within layouts/application
+Rendering user/index
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-04-12 20:15:12) [GET]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` [0m
+Rendering template within layouts/application
+Rendering user/index
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-04-12 20:18:22) [GET]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` [0m
+Rendering template within layouts/application
+Rendering user/index
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-04-12 20:18:23) [GET]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` [0m
+Rendering template within layouts/application
+Rendering user/index
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-04-12 20:18:24) [GET]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` [0m
+Rendering template within layouts/application
+Rendering user/index
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-04-12 20:19:13) [GET]
+  [4;35;1mUser Load (15.6ms)[0m   [0mSELECT * FROM `users` [0m
+Rendering template within layouts/application
+Rendering user/index
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 188ms (View: 63, DB: 16) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#show (for 127.0.0.1 at 2011-04-12 20:21:28) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) [0m
+Rendering template within layouts/application
+Rendering user/show
+Completed in 391ms (View: 359, DB: 0) | 200 OK [http://localhost/users/3]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-04-12 20:22:58) [GET]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` [0m
+Rendering template within layouts/application
+Rendering user/index
+  [4;36;1mUser Columns (31.3ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 63ms (View: 16, DB: 31) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-04-12 20:24:47) [GET]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` [0m
+Rendering template within layouts/application
+Rendering user/index
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#show (for 127.0.0.1 at 2011-04-12 20:24:49) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mUser Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) [0m
+Rendering template within layouts/application
+Rendering user/show
+Completed in 31ms (View: 16, DB: 16) | 200 OK [http://localhost/users/3]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-04-12 20:24:50) [GET]
+
+ActionController::RoutingError (No route matches "/avatars/medium/missing.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-04-12 20:24:50) [GET]
+
+ActionController::RoutingError (No route matches "/avatars/thumb/missing.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#show (for 127.0.0.1 at 2011-04-12 20:24:53) [GET]
+  Parameters: {"id"=>"9"}
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 9) [0m
+Rendering template within layouts/application
+Rendering user/show
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/users/9]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-04-12 20:26:07) [GET]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` [0m
+Rendering template within layouts/application
+Rendering user/index
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#show (for 127.0.0.1 at 2011-04-12 20:26:09) [GET]
+  Parameters: {"id"=>"9"}
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 9) [0m
+Rendering template within layouts/application
+Rendering user/show
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/users/9]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#show (for 127.0.0.1 at 2011-04-12 20:27:18) [GET]
+  Parameters: {"id"=>"9"}
+  [4;35;1mUser Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 9) [0m
+Rendering template within layouts/application
+Rendering user/show
+Completed in 203ms (View: 188, DB: 16) | 200 OK [http://localhost/users/9]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#show (for 127.0.0.1 at 2011-04-12 20:27:19) [GET]
+  Parameters: {"id"=>"9"}
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 9) [0m
+Rendering template within layouts/application
+Rendering user/show
+Completed in 47ms (View: 16, DB: 0) | 200 OK [http://localhost/users/9]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#show (for 127.0.0.1 at 2011-04-12 20:27:20) [GET]
+  Parameters: {"id"=>"9"}
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 9) [0m
+Rendering template within layouts/application
+Rendering user/show
+Completed in 78ms (View: 31, DB: 0) | 200 OK [http://localhost/users/9]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#show (for 127.0.0.1 at 2011-04-12 20:27:20) [GET]
+  Parameters: {"id"=>"9"}
+  [4;35;1mUser Columns (140.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 9) [0m
+Rendering template within layouts/application
+Rendering user/show
+Completed in 156ms (View: 0, DB: 141) | 200 OK [http://localhost/users/9]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#show (for 127.0.0.1 at 2011-04-12 20:27:21) [GET]
+  Parameters: {"id"=>"9"}
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 9) [0m
+Rendering template within layouts/application
+Rendering user/show
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/users/9]
+  [4;35;1mSQL (15.6ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#show (for 127.0.0.1 at 2011-04-12 20:27:21) [GET]
+  Parameters: {"id"=>"9"}
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 9) [0m
+Rendering template within layouts/application
+Rendering user/show
+Completed in 31ms (View: 16, DB: 16) | 200 OK [http://localhost/users/9]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#show (for 127.0.0.1 at 2011-04-12 20:27:40) [GET]
+  Parameters: {"id"=>"9"}
+  [4;35;1mUser Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 9) [0m
+Rendering template within layouts/application
+Rendering user/show
+Completed in 78ms (View: 31, DB: 16) | 200 OK [http://localhost/users/9]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#show (for 127.0.0.1 at 2011-04-12 20:27:40) [GET]
+  Parameters: {"id"=>"9"}
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 9) [0m
+Rendering template within layouts/application
+Rendering user/show
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/users/9]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#show (for 127.0.0.1 at 2011-04-12 20:27:41) [GET]
+  Parameters: {"id"=>"9"}
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 9) [0m
+Rendering template within layouts/application
+Rendering user/show
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/users/9]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#show (for 127.0.0.1 at 2011-04-12 20:27:41) [GET]
+  Parameters: {"id"=>"9"}
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 9) [0m
+Rendering template within layouts/application
+Rendering user/show
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/users/9]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#show (for 127.0.0.1 at 2011-04-12 20:31:06) [GET]
+  Parameters: {"id"=>"9"}
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 9) [0m
+Rendering template within layouts/application
+Rendering user/show
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/users/9]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#show (for 127.0.0.1 at 2011-04-12 20:31:09) [GET]
+  Parameters: {"id"=>"9"}
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 9) [0m
+Rendering template within layouts/application
+Rendering user/show
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/users/9]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#show (for 127.0.0.1 at 2011-04-12 20:31:42) [GET]
+  Parameters: {"id"=>"9"}
+  [4;35;1mUser Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 9) [0m
+Rendering template within layouts/application
+Rendering user/show
+Completed in 31ms (View: 16, DB: 16) | 200 OK [http://localhost/users/9]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#edit (for 127.0.0.1 at 2011-04-12 20:31:48) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) [0m
+Rendering template within layouts/application
+Rendering user/edit
+Completed in 109ms (View: 94, DB: 0) | 200 OK [http://localhost/users/3/edit]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#edit (for 127.0.0.1 at 2011-04-12 20:32:22) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) [0m
+Rendering template within layouts/application
+Rendering user/edit
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/users/3/edit]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#edit (for 127.0.0.1 at 2011-04-12 20:32:23) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) [0m
+Rendering template within layouts/application
+Rendering user/edit
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/users/3/edit]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#edit (for 127.0.0.1 at 2011-04-12 20:32:24) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mUser Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) [0m
+Rendering template within layouts/application
+Rendering user/edit
+Completed in 16ms (View: 0, DB: 16) | 200 OK [http://localhost/users/3/edit]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#edit (for 127.0.0.1 at 2011-04-12 20:33:35) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (15.6ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) [0m
+Rendering template within layouts/application
+Rendering user/edit
+Completed in 31ms (View: 16, DB: 16) | 200 OK [http://localhost/users/3/edit]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#edit (for 127.0.0.1 at 2011-04-12 20:33:36) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) [0m
+Rendering template within layouts/application
+Rendering user/edit
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/users/3/edit]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#edit (for 127.0.0.1 at 2011-04-12 20:33:46) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) [0m
+Rendering template within layouts/application
+Rendering user/edit
+Completed in 63ms (View: 31, DB: 0) | 200 OK [http://localhost/users/3/edit]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#edit (for 127.0.0.1 at 2011-04-12 20:33:47) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mUser Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) [0m
+Rendering template within layouts/application
+Rendering user/edit
+Completed in 31ms (View: 16, DB: 16) | 200 OK [http://localhost/users/3/edit]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#edit (for 127.0.0.1 at 2011-04-12 20:33:47) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) [0m
+Rendering template within layouts/application
+Rendering user/edit
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/users/3/edit]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-04-12 20:39:24) [GET]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` [0m
+Rendering template within layouts/application
+Rendering user/index
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 63ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (15.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-04-12 20:39:25) [GET]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` [0m
+Rendering template within layouts/application
+Rendering user/index
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 78ms (View: 31, DB: 16) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (15.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-04-12 20:39:26) [GET]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` [0m
+Rendering template within layouts/application
+Rendering user/index
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 47ms (View: 31, DB: 16) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#new (for 127.0.0.1 at 2011-04-12 20:39:28) [GET]
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user/new
+Completed in 203ms (View: 16, DB: 0) | 200 OK [http://localhost/users/new]

@@ -1,0 +1,15 @@
+<h1>List of Users</h1>
+<table>
+  <tr><th>User Id</th><th>User Name</th><th></th></tr>
+  <% @user.each do |f| %>
+    <tr>
+      <td><span><%= f.id %></span></td>
+      <td><span><%= f.name %></span></td>
+      <td><span><%= link_to 'show', :controller => 'user', :action => 'show', :id => f.id %></span>
+        &nbsp;<span><%= link_to 'edit', :controller => 'user', :action => 'edit', :id => f.id %></span>
+        &nbsp;<span><%= link_to 'delete', :controller => 'user', :action => 'delete', :id => f.id %></span>
+      </td>
+    </tr>
+  <% end %>
+</table>
+<%= link_to 'New User', :controller=>'user', :action=>'new' %>
